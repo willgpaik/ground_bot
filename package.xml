@@ -4,7 +4,7 @@
   <name>ground_bot</name>
   <version>0.0.0</version>
   <description>TODO: Package description</description>
-  <maintainer email="bg0919@gmail.com">willgpaik</maintainer>
+  <maintainer email="bgh0919@gmail.com">willgpaik</maintainer>
   <license>TODO: License declaration</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
