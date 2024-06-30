@@ -35,7 +35,7 @@ def generate_launch_description():
     controller_manager = Node(
         package="controller_manager",
         executable="ros2_control_node",
-        arguments=[{'robot_description': robot_description},
+        parameters=[{'robot_description': robot_description},
                    controller_params_file]
     )
 
@@ -89,6 +89,5 @@ def generate_launch_description():
         rsp,
         delayed_controller_manager,
         delayed_diff_drive_spawner,
-        diff_drive_spawner,
-        joint_broad_spawner
+        delayed_joint_broad_spawner
     ])
